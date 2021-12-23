@@ -1,5 +1,5 @@
 # benjiaomodular
-Reusable KiCAD components for Eurorack modular synthesizers by @benjiaomodular
+Reusable KiCAD components for Eurorack modular synthesizers by [@benjiaomodular](https://instagram.com/benjiaomodular).
 
 ## Components
 
