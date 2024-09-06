@@ -1,4 +1,8 @@
-# benjiaomodular
+# KiCAD Libraries by benjiamodular
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+
+
 Reusable KiCAD components for Eurorack modular synthesizers by [@benjiaomodular](https://instagram.com/benjiaomodular).
 
 ## Components
@@ -23,3 +27,14 @@ Reusable KiCAD components for Eurorack modular synthesizers by [@benjiaomodular]
 | ToggleSwitch_MTS-101_SPST | Standard MTS-101 On-Off toggle switch |
 | ToggleSwitch_MTS-202_DPDT | Standard MTS-202 On-On toggle switch |
 | Wire_1mm | Just a 1mm solder pad drill hole for wire |
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
