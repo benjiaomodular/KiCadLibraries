@@ -1,12 +1,12 @@
-(footprint "Panel_2HP"
+(footprint "Panel_16HP"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 5.1 6.1 0)
+		(at 35 -1 0)
 		(layer "F.Fab")
-		(uuid "81607027-e89e-4c4b-ad99-e9380323b113")
+		(uuid "53006bc5-8265-4984-a90b-392477f2127b")
 		(effects
 			(font
 				(size 1 1)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "Panel_2HP"
-		(at 4.75 -1 0)
+	(property "Value" "Panel_16HP"
+		(at 4 -1 0)
 		(layer "F.Fab")
-		(uuid "6d28e8ab-86a0-435d-89e6-c21d0968536b")
+		(uuid "7bf521d1-09ee-4ea3-bfaf-d35167e14da0")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a215784d-fb25-4aed-8a68-9b39683f9e0f")
+		(uuid "42b39d40-4c9b-40a1-a31e-8fa5790fea32")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3c69d66b-aca3-4f7d-8fba-bd62f3d333c5")
+		(uuid "ae4b29ad-8fa6-4b55-920c-2c054008a73a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "85622d4f-8dc8-4067-aae3-100b65ea31c1")
+		(uuid "61c0dd0d-637f-4509-bbb1-142c902b05a9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,43 +64,33 @@
 	(attr through_hole)
 	(fp_line
 		(start 0 0)
-		(end 10 0)
+		(end 80 0)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "1aaf2400-4619-4094-b80e-0a8700d794f5")
+		(uuid "b5257e54-8e82-41dc-8e2b-e33538a0ad71")
 	)
 	(fp_line
 		(start 0 9)
-		(end 10 9)
+		(end 80 9)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "27923d23-0117-43c3-b640-39281215b2f3")
+		(uuid "d874b093-18c4-4148-8aac-b4c513dab2b1")
 	)
 	(fp_line
 		(start 0 119.5)
-		(end 10 119.5)
+		(end 80 119.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "e88bf44d-7d14-460f-bf11-e7182b2da6fd")
-	)
-	(fp_line
-		(start 0 125.5)
-		(end 10 125.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "cd4786b1-59f7-49cd-bbd9-d0b589a532b0")
+		(uuid "9e2b18e6-47cf-4a17-85e1-139ea21def53")
 	)
 	(fp_line
 		(start 0 128.5)
@@ -110,42 +100,58 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "571755b6-1856-4086-aae4-15d0b6402f19")
+		(uuid "29f39fd5-6477-47be-9bbf-55aa1cdd7050")
 	)
 	(fp_line
-		(start 10 0)
-		(end 10 128.5)
+		(start 80 0)
+		(end 80 128.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "d1cfdc54-4a6d-47ee-8c86-5b9e6ef2113f")
+		(uuid "631f639a-e047-40ad-8627-047d3456d740")
 	)
 	(fp_line
-		(start 10 128.5)
+		(start 80 128.5)
 		(end 0 128.5)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "38a50751-d30e-47c2-a0dd-2c2203821ad0")
+		(uuid "15c9ab29-3c8f-489a-af79-70af364b4d70")
 	)
 	(pad "" thru_hole oval
-		(at 5 3)
+		(at 7.5 3)
 		(size 7 4.2)
 		(drill oval 6 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "59a454ac-6929-4599-9aab-8baeb91daf23")
+		(uuid "fb9f6898-a150-42bb-8026-b9836d16c910")
 	)
 	(pad "" thru_hole oval
-		(at 5 125.5)
+		(at 7.5 125.5)
 		(size 7 4.2)
 		(drill oval 6 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6dc5f7e1-8ac7-47ac-86f4-da45f87c68d7")
+		(uuid "175c08ef-1c15-43bb-b5ca-8d8ffba16032")
+	)
+	(pad "" thru_hole oval
+		(at 72.5 3)
+		(size 7 4.2)
+		(drill oval 6 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d42e3f77-059d-449d-ab07-a2bc87765cc9")
+	)
+	(pad "" thru_hole oval
+		(at 72.5 125.5)
+		(size 7 4.2)
+		(drill oval 6 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "783e3f0e-8fe2-429b-9d1e-91c87b649dfc")
 	)
 )
